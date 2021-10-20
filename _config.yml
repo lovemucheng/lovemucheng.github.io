@@ -1,55 +1,44 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Basic
+basictitle: 沐  澄
+subtitle: 沐浴阳光.茁壮澄长
+## 底部状态栏描述
+descriptionDate: 2021-10-19
+description: 记录小朋友一岁后的生活日记
+# 头像里面的标题
+avatarTitle: Only
+# 首页里面的描述
+avatarDesc: 漂亮小姑娘的成长日记
+greeting: 愿你所求皆如愿 所行化坦途 多喜乐 长安宁。
 
-# Build settings
-theme: minima
+# 博客是否自动生成目录，false为不生成
+enableToc: true
+
+# 菜单栏
+# 图标地址 http://www.fontawesome.com.cn/
+nav:
+  - {title: 归档, description: about, url: '/',class: 'fa fa-tags'}
+  - {title: 相册, description: tags, url: '/images',class: 'fa fa-picture-o'}
+  - {title: 关于, description: comments, url: '/about',class: 'fa fa-lemon-o'}
+
+# 相册列表
+imageList:
+  - {title: 标题1, intro: 113311, date: '2021-09-27', url: '/assets/20210927',namelist: [1,3,5]}
+  - {title: 标题2, intro: 2222, date: '2021-09-30', url: '/assets/20210930',namelist: [2,4]}
+  - {title: 标题3, intro: 2222, date: '2021-09-30', url: '/assets/20210930',namelist: [2,4]}
+  - {title: 标题4, intro: 2222, date: '2021-09-30', url: '/assets/20210930',namelist: [2,4]}
+
+#permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+cover_color: clear
+
 plugins:
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# 分页
+# 每页有几个项目
+gems: [jekyll-paginate]
+paginate: 3
+paginate_path: "page:num"
