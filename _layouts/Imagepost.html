@@ -1,0 +1,16 @@
+---
+layout: ImageTemplate
+---
+
+<div class="row">
+    {% for item in page.name %}
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/assets/{{ page.image }}/{{item}}.jpg" alt="..." style="width: 400px;height: 350px" />
+            <div class="caption">
+                <h3> {{item}}.jpg</h3>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

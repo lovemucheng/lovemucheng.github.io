@@ -23,10 +23,10 @@ nav:
 
 # 相册列表
 imageList:
-  - {title: 标题1, intro: 113311, date: '2021-09-27', url: '/assets/20210927',namelist: [1,3,5]}
-  - {title: 标题2, intro: 2222, date: '2021-09-30', url: '/assets/20210930',namelist: [2,4]}
-  - {title: 标题3, intro: 2222, date: '2021-09-30', url: '/assets/20210930',namelist: [2,4]}
-  - {title: 标题4, intro: 2222, date: '2021-09-30', url: '/assets/20210930',namelist: [2,4]}
+  - {title: 相册名-1, intro: 1131, datetime: '2021-09-27', imgUrl: '/assets/20210927',imagehome:  1.jpg,imageList: [1,2,3,4,5,7]}
+  - {title: 相册名-2, intro: 2222, datetime: '2021-09-30', imgUrl: '/assets/20210930',imagehome:  1.jpg,imageList: [2,4]}
+  - {title: 相册名-3, intro: 2222, datetime: '2021-09-30', imgUrl: '/assets/20210930',imagehome:  1.jpg,imageList: [2,4]}
+  - {title: 相册名-4, intro: 2222, datetime: '2021-09-30', imgUrl: '/assets/20210930',imagehome:  1.jpg,imageList: [2,4]}
 
 #permalink: /:year/:month/:title/
 
@@ -40,5 +40,5 @@ plugins:
 # 分页
 # 每页有几个项目
 gems: [jekyll-paginate]
-paginate: 3
+paginate: 10
 paginate_path: "page:num"

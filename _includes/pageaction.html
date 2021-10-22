@@ -1,5 +1,6 @@
 
 <!--<nav class="page-nav">-->
+<!--    <a class="prev next" rel="next" href="/page/2/">Next</a>-->
 <!--    <span class="page-number current">1</span>-->
 <!--    <a class="page-number" href="/page/2/">2</a>-->
 <!--    <a class="page-number" href="/page/3/">3</a>-->
@@ -9,20 +10,20 @@
 <div class="post-nav">
     <div class="post-nav-next post-nav-item">
         {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path }}" rel="next" title="" one-link-mark="yes">
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" rel="next" title="" one-link-mark="yes">
             <i class="fa fa-chevron-left">上一页</i>
         </a>
-        {% else %}
         {% endif %}
     </div>
+
     <span class="post-nav-divider"></span>
     <div class="post-nav-prev post-nav-item">
         {% if paginator.next_page %}
         <a href="{{ paginator.next_page_path }}" rel="prev" title="" one-link-mark="yes">
             下一页 <i class="fa fa-chevron-right"></i>
         </a>
-        {% else %}
         {% endif %}
     </div>
+
 </div>
 
