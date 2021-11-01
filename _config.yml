@@ -12,23 +12,43 @@ avatarDesc: 漂亮小姑娘的成长日记
 greeting: 愿你所求皆如愿 所行化坦途 多喜乐 长安宁。
 
 # 博客是否自动生成目录，false为不生成
-enableToc: true
+enableToc: false
 
 # 菜单栏
 # 图标地址 http://www.fontawesome.com.cn/
 nav:
   - {title: 归档, description: about, url: '/',class: 'fa fa-tags'}
-  - {title: 相册, description: tags, url: '/images',class: 'fa fa-picture-o'}
+  - {title: 旅游图册, description: tags, url: '/images',class: 'fa fa-picture-o'}
+  - {title: 宝宝相薄, description: tags, url: '/star',class: 'fa fa-star'}
+  - {title: 视频, description: video, url: '/video',class: 'fa fa-file-video-o'}
   - {title: 关于, description: comments, url: '/about',class: 'fa fa-lemon-o'}
 
+## baby
+babyList:
+    - { title: BaBy-随心拍, intro: 小朋友的相册薄集合。, datetime: '2021-09-27', imgUrl: '/assets/baby/atWill',imagehome: 1.jpg,imageList: 5 }
+    - { title: BaBy_一周, intro: 宝宝一周相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/0_week',imagehome: 1.jpg,imageList: 2 }
+    - { title: BaBy_一月, intro: 宝宝一月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/1_month',imagehome: 1.jpg,imageList: 10 }
+    - { title: BaBy_二月, intro: 宝宝二月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/2_two',imagehome: 1.jpg,imageList: 6 }
+    - { title: BaBy_三月, intro: 宝宝三月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/3_three',imagehome: 1.jpg,imageList: 6 }
+    - { title: BaBy_四月, intro: 宝宝四月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/4_four',imagehome: 1.jpg,imageList: 9 }
+    - { title: BaBy_五月, intro: 宝宝五月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/5_five',imagehome: 1.jpg,imageList: 12 }
+    - { title: BaBy_六月, intro: 宝宝六月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/6_six',imagehome: 1.jpg,imageList: 13}
+    - { title: BaBy_七月, intro: 宝宝七月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/7_seven',imagehome: 1.jpg,imageList: 7 }
+    - { title: BaBy_八月, intro: 宝宝八月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/8_eight',imagehome: 1.jpg,imageList: 11 }
+    - { title: BaBy_九月, intro: 宝宝九月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/9_nine',imagehome: 1.jpg,imageList: 6 }
+    - { title: BaBy_十月, intro: 宝宝十月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/10_ten',imagehome: 1.jpg,imageList: 7 }
+    - { title: BaBy_十一月, intro: 宝宝十一大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/11_eleven',imagehome: 1.jpg,imageList: 7 }
+    - { title: BaBy_一岁, intro: 宝宝一岁大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/12_twelve',imagehome: 1.jpg,imageList: 9 }
 # 相册列表
 imageList:
-  - {title: 相册名-1, intro: 1131, datetime: '2021-09-27', imgUrl: '/assets/20210927',imagehome:  1.jpg,imageList: [1,2,3,4,5,7]}
-  - {title: 相册名-2, intro: 2222, datetime: '2021-09-30', imgUrl: '/assets/20210930',imagehome:  1.jpg,imageList: [2,4]}
-  - {title: 相册名-3, intro: 2222, datetime: '2021-09-30', imgUrl: '/assets/20210930',imagehome:  1.jpg,imageList: [2,4]}
-  - {title: 相册名-4, intro: 2222, datetime: '2021-09-30', imgUrl: '/assets/20210930',imagehome:  1.jpg,imageList: [2,4]}
+  - {title: 北京篇, intro: 旅游日记-北京篇。, datetime: '2021-09-27', imgUrl: '/assets/beijing',imagehome:  1.jpg,imageList: 6}
+  - {title: 成都篇, intro: 旅游日记-成都篇。, datetime: '2021-09-27', imgUrl: '/assets/chengdu',imagehome:  1.jpg,imageList: 9}
+  - {title: 神农架篇, intro: 旅游日记-神农架篇。, datetime: '2021-09-27', imgUrl: '/assets/shennongjia',imagehome:  1.jpg,imageList: 3}
+  - {title: 泰国篇, intro: 旅游日记-泰国篇。, datetime: '2021-09-27', imgUrl: '/assets/taiguo',imagehome:  1.jpg,imageList: 12}
+  - {title: 武汉篇, intro: 旅游日记-武汉篇。, datetime: '2021-09-27', imgUrl: '/assets/wuhan',imagehome:  1.jpg,imageList: 6}
+  - {title: 云南篇, intro: 旅游日记-云南篇。, datetime: '2021-09-27', imgUrl: '/assets/yunnan',imagehome:  1.jpg,imageList: 9}
 
-#permalink: /:year/:month/:title/
+#permalink: /:year/:1_month/:title/
 
 # Format
 highlighter: rouge

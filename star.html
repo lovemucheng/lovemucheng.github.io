@@ -1,0 +1,22 @@
+---
+layout: ImageTemplate
+---
+
+<div class="row">
+  {% for item in site.babyList %}
+    <div class="col-sm-6 col-md-4">
+      <div class="thumbnail" >
+        <img src="{{item.imgUrl}}/{{item.imagehome}}" alt="..." style="width: 270px;height: 270px;">
+        <div class="caption">
+          <h3> <a class="post-title-link" href="#" onclick="ShowImageList('{{item.imgUrl}}','{{item.imageList}}')">{{item.title}}</a></h3>
+          <p>{{ item.intro | remove: '<p>' | remove: '</p>' }}</p>
+          <p>日期:{{ item.datetime |  date: "%Y-%m-%d" }}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<div id="isImageShow" style="display: none;">
+
+</div>
