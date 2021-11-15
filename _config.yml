@@ -20,7 +20,6 @@ nav:
   - {title: 归档, description: about, url: '/',class: 'fa fa-tags'}
   - {title: 旅游图册, description: tags, url: '/images',class: 'fa fa-picture-o'}
   - {title: 宝宝相薄, description: tags, url: '/star',class: 'fa fa-star'}
-  - {title: 视频, description: video, url: '/video',class: 'fa fa-file-video-o'}
   - {title: 关于, description: comments, url: '/about',class: 'fa fa-lemon-o'}
 
 ## baby

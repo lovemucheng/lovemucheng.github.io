@@ -9,14 +9,19 @@ h6 {
 }
 html {
   background-color: #e9fbf8;
-  background-image: -webkit-radial-gradient(50% 0, ellipse farthest-corner, #dbf5f1 0%, #9be4d8 100%);
-  background-image: radial-gradient(ellipse farthest-corner at 50% 0, #dbf5f1 0%, #9be4d8 100%);
+  /*background-image: -webkit-radial-gradient(50% 0, ellipse farthest-corner, #dbf5f1 0%, #9be4d8 100%);*/
+  /*background-image: radial-gradient(ellipse farthest-corner at 50% 0, #dbf5f1 0%, #9be4d8 100%);*/
+  //background-image: url("https://hbimg.huabanimg.com/cd25ecfb1ec334742cdfc07a0139bcff84b2b8fb38b2-jBiZjO_fw658/format/webp");
+  background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+  background-repeat: no-repeat;
 }
 body {
   background-color: #e9fbf8;
-  background-image: -webkit-radial-gradient(50% 0, ellipse farthest-corner, #dbf5f1 0%, #9be4d8 100%);
-  background-image: radial-gradient(ellipse farthest-corner at 50% 0, #dbf5f1 0%, #9be4d8 100%);
-  overflow-x: hidden;
+  /*background-image: -webkit-radial-gradient(50% 0, ellipse farthest-corner, #dbf5f1 0%, #9be4d8 100%);*/
+  /*background-image: radial-gradient(ellipse farthest-corner at 50% 0, #dbf5f1 0%, #9be4d8 100%);*/
+  //background-image: url("https://hbimg.huabanimg.com/cd25ecfb1ec334742cdfc07a0139bcff84b2b8fb38b2-jBiZjO_fw658/format/webp");
+  background-image: linear-gradient(-225deg, #20E2D7 0%, #F9FEA5 100%);
+  overflow-x : auto;
   font-family: Lato, "Microsoft YaHei", sans-serif;
   font-weight: 400;
 }
@@ -173,7 +178,7 @@ body {
   width: 100%;
   flex-direction: row;
   justify-content: center;
-  background-color: #f4f4f4;
+  /*background-color: #f4f4f4;*/
   transition: top 0.3s ease;
 }
 .header .color-bar.out {
@@ -231,12 +236,12 @@ body {
   display: flex;
 }
 .header .header-wrapper .blog-title .logo {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 .header .header-wrapper .blog-title .title {
-  color: #fff;
-  font-size: 1.5em;
+  color: #FBE251;
+  font-size: 1.8em;
   text-decoration: none;
 }
 .header .header-wrapper .navbar-menu {
@@ -271,10 +276,10 @@ body {
 .header .header-wrapper .navbar .menu .menu-item-link {
   text-decoration: none;
   transition: color 0.5s ease;
-  color: #ccc;
+  color: #F17C67;
 }
 .header .header-wrapper .navbar .menu .menu-item-link:hover {
-  color: #ffd700;
+  color: #E2943B;
 }
 .nav-collapse {
   left: 0;
