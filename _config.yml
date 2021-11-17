@@ -22,22 +22,13 @@ nav:
   - {title: 宝宝相薄, description: tags, url: '/star',class: 'fa fa-star'}
   - {title: 关于, description: comments, url: '/about',class: 'fa fa-lemon-o'}
 
-## baby
+## baby 秋天的糖炒栗 冬天的烤红薯 春天的樱花树 夏天的冰淇淋
 babyList:
-    - { title: BaBy-随心拍, intro: 小朋友的相册薄集合。, datetime: '2021-09-27', imgUrl: '/assets/baby/atWill',imagehome: 1.jpg,imageList: 5 }
-    - { title: BaBy_一周, intro: 宝宝一周相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/0_week',imagehome: 1.jpg,imageList: 2 }
-    - { title: BaBy_一月, intro: 宝宝一月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/1_month',imagehome: 1.jpg,imageList: 10 }
-    - { title: BaBy_二月, intro: 宝宝二月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/2_two',imagehome: 1.jpg,imageList: 6 }
-    - { title: BaBy_三月, intro: 宝宝三月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/3_three',imagehome: 1.jpg,imageList: 6 }
-    - { title: BaBy_四月, intro: 宝宝四月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/4_four',imagehome: 1.jpg,imageList: 9 }
-    - { title: BaBy_五月, intro: 宝宝五月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/5_five',imagehome: 1.jpg,imageList: 12 }
-    - { title: BaBy_六月, intro: 宝宝六月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/6_six',imagehome: 1.jpg,imageList: 13}
-    - { title: BaBy_七月, intro: 宝宝七月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/7_seven',imagehome: 1.jpg,imageList: 7 }
-    - { title: BaBy_八月, intro: 宝宝八月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/8_eight',imagehome: 1.jpg,imageList: 11 }
-    - { title: BaBy_九月, intro: 宝宝九月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/9_nine',imagehome: 1.jpg,imageList: 6 }
-    - { title: BaBy_十月, intro: 宝宝十月大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/10_ten',imagehome: 1.jpg,imageList: 7 }
-    - { title: BaBy_十一月, intro: 宝宝十一大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/11_eleven',imagehome: 1.jpg,imageList: 7 }
-    - { title: BaBy_一岁, intro: 宝宝一岁大相册整理。, datetime: '2021-09-27', imgUrl: '/assets/baby/12_twelve',imagehome: 1.jpg,imageList: 9 }
+    - { title: 一年四季。, intro: 春、夏、秋、冬。, datetime: '2021-09-27', imgUrl: '/assets/Seasons/home',imagehome: home.jpg,imageList: 4 }
+    - { title: 春宜花。, intro: 春天的樱花树。, datetime: '2021-09-27', imgUrl: '/assets/Seasons/spring',imagehome: 1.jpg,imageList: 7 }
+    - { title: 夏宜风。, intro: 夏天的冰淇淋。, datetime: '2021-09-27', imgUrl: '/assets/Seasons/summer',imagehome: 2.jpg,imageList: 36 }
+    - { title: 秋宜月。, intro: 秋天的糖炒栗。, datetime: '2021-09-27', imgUrl: '/assets/Seasons/autumn',imagehome: 3.jpg,imageList: 17 }
+    - { title: 冬宜雪。, intro: 冬天的烤红薯 。, datetime: '2021-09-27', imgUrl: '/assets/Seasons/winter',imagehome: 4.jpg,imageList: 46 }
 # 相册列表
 imageList:
   - {title: 北京篇, intro: 旅游日记-北京篇。, datetime: '2021-09-27', imgUrl: '/assets/beijing',imagehome:  1.jpg,imageList: 6}
